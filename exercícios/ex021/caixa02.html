@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+
+        }
+        header{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: auto;
+            
+        }
+        nav{
+            background-color: lightgray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.459);
+           
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 30px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.432);
+        }
+        article{
+            background-color: lightgray;
+            padding: 6px;
+            text-align: justify;
+            font-size: 18px;
+        
+        }
+        article > h2{
+            text-align: center;
+        }
+        p#pp > a{
+            color: white;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 4px;
+        }
+        article > aside{
+            background-color: rgba(65, 62, 62, 0.575);
+        }
+        section#assuntos{
+            background-color: rgb(61, 105, 61);
+            padding: 3px;
+            margin-bottom: 8px;
+            color: white;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Meu site</h1>
+       <nav>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+       </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p id="pp"><a href="#">Esportes e tecnologia</a></p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque esse mollitia provident rem aliquam. Perspiciatis, nobis doloribus dicta repellendus consequatur optio quo adipisci accusamus eos tenetur, corrupti quam architecto blanditiis.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolovido por Matheus Sena</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
